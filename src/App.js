@@ -1,4 +1,4 @@
-import { Nav, Navbar, Container, NavDropdown, Table } from "react-bootstrap";
+import { Nav, Navbar, Container, NavDropdown, Table, Pagination } from "react-bootstrap";
 import React, { Suspense, useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
@@ -6,9 +6,12 @@ import Trot from "./components/Trot";
 import Dance from "./components/Dance";
 import Soul from "./components/Soul";
 import Ballad from "./components/Ballad";
+import SearchMusic from "./components/SearchMusic";
 
 import "./App.css";
 import MainPage from "./components/MainPage";
+import Detail from "./components/Detail";
+import Ballad2 from "./components/Ballad2";
 
 export let Stockcontext = React.createContext(); //1.컨텍스트 만들고
 
@@ -26,7 +29,7 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/">Detail</Nav.Link>
+              <Nav.Link href="/SearchMusic">음악검색</Nav.Link>
               <Nav.Link href="/">Cart</Nav.Link>
               <NavDropdown title="장르" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/trot">트로트</NavDropdown.Item>
@@ -47,6 +50,9 @@ function App() {
           <Route path="/dance" element={<Dance />} />
           <Route path="/ballad" element={<Ballad />} />
           <Route path="/Soul" element={<Soul />} />
+          <Route path="/detail/:id" element={<Detail />} />
+          <Route path="/SearchMusic" element={<SearchMusic />} />
+         <Route path='/ballad2/:id' element={<Ballad2/>} />
         </Routes>
       </Suspense>
     </div>
