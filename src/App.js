@@ -9,6 +9,7 @@ import Ballad from "./components/Ballad";
 
 import "./App.css";
 import MainPage from "./components/MainPage";
+import Ballad2 from "./components/Ballad2";
 
 export let Stockcontext = React.createContext(); //1.컨텍스트 만들고
 
@@ -47,6 +48,7 @@ function App() {
           <Route path="/dance" element={<Dance />} />
           <Route path="/ballad" element={<Ballad />} />
           <Route path="/Soul" element={<Soul />} />
+         <Route path='/ballad2/:id' element={<Ballad2/>} />
         </Routes>
       </Suspense>
     </div>
