@@ -6,6 +6,7 @@ import Trot from "./components/Trot";
 import Dance from "./components/Dance";
 import Soul from "./components/Soul";
 import Ballad from "./components/Ballad";
+import SearchMusic from "./components/SearchMusic";
 
 import "./App.css";
 import MainPage from "./components/MainPage";
@@ -26,7 +27,7 @@ function App() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/">Detail</Nav.Link>
+              <Nav.Link href="/SearchMusic">음악검색</Nav.Link>
               <Nav.Link href="/">Cart</Nav.Link>
               <NavDropdown title="장르" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/trot">트로트</NavDropdown.Item>
@@ -47,6 +48,7 @@ function App() {
           <Route path="/dance" element={<Dance />} />
           <Route path="/ballad" element={<Ballad />} />
           <Route path="/Soul" element={<Soul />} />
+          <Route path="/SearchMusic" element={<SearchMusic />} />
         </Routes>
       </Suspense>
     </div>
