@@ -1,0 +1,10 @@
+.Carousel.Item > img {
+    top: 0;
+    left: 0;
+    min-width: 20%;
+    min-height: 20px;
+  } 
+  .imagestyle{
+    width: auto;
+    width: 50;
+  }
