@@ -1,7 +1,8 @@
 import { Nav, Navbar, Container, NavDropdown } from "react-bootstrap";
 import "./App.css";
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { Suspense } from "react";
+import { Link, Route, Routes } from "react-router-dom";
+import Trot from "./components/Trot";
 export let Stockcontext = React.createContext(); //1.컨텍스트 만들고
 
 function App() {
@@ -17,24 +18,29 @@ function App() {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/">Detail</Nav.Link>
               <Nav.Link href="/">Cart</Nav.Link>
-              <Link to="/">이벤트</Link>
-              <NavDropdown title="About" id="basic-nav-dropdown">
-                <NavDropdown.Item href="/">about</NavDropdown.Item>
+              <NavDropdown title="장르" id="basic-nav-dropdown">
+                <NavDropdown.Item href="/trot">트로트</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
-                  찾아오는 길
+                  댄스 
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
-                  Something
+                  발라드
                 </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
+                <NavDropdown.Item href="#action/3.3">
+                  힙합
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
+      <Suspense fallback={<div>로딩중....</div>}>
+        <Routes>
+          <Route path="*" element={<h3>없는 페이지 입니다.</h3>} />
+          <Route path="/trot" element={<Trot />} />
+        </Routes>
+      </Suspense>
     </div>
   );
 }
