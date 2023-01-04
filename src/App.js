@@ -1,4 +1,4 @@
-import { Nav, Navbar, Container, NavDropdown, Table } from "react-bootstrap";
+import { Nav, Navbar, Container, NavDropdown, Table, Pagination } from "react-bootstrap";
 import React, { Suspense, useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
