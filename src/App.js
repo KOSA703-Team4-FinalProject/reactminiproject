@@ -3,6 +3,7 @@ import "./App.css";
 import React, { Suspense } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import Trot from "./components/Trot";
+import Dance from "./components/Dance";
 import Soul from "./components/Soul";
 import Ballad from "./components/Ballad";
 export let Stockcontext = React.createContext(); //1.컨텍스트 만들고
@@ -22,7 +23,7 @@ function App() {
               <Nav.Link href="/">Cart</Nav.Link>
               <NavDropdown title="장르" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/trot">트로트</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="/dance">
                   댄스 
                 </NavDropdown.Item>
                 <NavDropdown.Item href="/ballad">
@@ -41,6 +42,7 @@ function App() {
         <Routes>
           <Route path="*" element={<h3>없는 페이지 입니다.</h3>} />
           <Route path="/trot" element={<Trot />} />
+          <Route path="/dance" element={<Dance />} />
           <Route path="/ballad" element={<Ballad />} />
         </Routes>
       </Suspense>
