@@ -1,5 +1,14 @@
+@import url('./css/main.css');
+.start{
+  opacity: 0;
+
+}
+.end{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
