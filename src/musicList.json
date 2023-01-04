@@ -14,7 +14,7 @@
 	    "song" : "Never Say Never",
 		"singer" : "Brandy",
   	    "title" : "Brandy와 Rodney Jerkins의 탁월한 결합",
-	    "content" : "Monica, Aaliyah와 함께 R&B 틴에이져 삼각 편대를 구축했던 Brandy의 두 번째 정규작이다. "I Wanna be Down"(6위), "Baby"(4위), "Brokenhearted"(9위) 등 세 곡의 Top 10 싱글을 배출한 [Brandy] 이후 4년 만의 앨범으로 데뷔작에서 함께한 Keith Crouch, Somethin' for the People 대신 프로듀서 Rodney Jerkins를 중용해 음악적 변신을 꾀했다.   Brandy와 Rodney Jerkins와",
+	    "content" : "Monica, Aaliyah와 함께 R&B 틴에이져 삼각 편대를 구축했던 Brandy의 두 번째 정규작이다. 'I Wanna be Down'(6위), 'Baby'(4위), 'Brokenhearted'(9위) 등 세 곡의 Top 10 싱글을 배출한 [Brandy] 이후 4년 만의 앨범으로 데뷔작에서 함께한 Keith Crouch, Somethin' for the People 대신 프로듀서 Rodney Jerkins를 중용해 음악적 변신을 꾀했다.   Brandy와 Rodney Jerkins와",
 		"genre" : "soul"
 	},
 	{
@@ -32,7 +32,7 @@
 	    "song" : "Just Like You",
 		"singer" : "Keyshia Cole",
   	    "title" : "힙합 소울의 기대주가 선보인 두 번째 앨범",
-	    "content" : "허스키한 소울풀 보컬을 통해 Mary J. Blige에 이어 힙합 소울의 기대주로 떠오른 Keyshia Cole의 두 번째 앨범이다. 전체적으로 데뷔작에 이어 심화된 힙합 소울 사운드와 장기인 발라드 트랙들을 고루 선보였으며, 전 수록곡에 걸쳐 대중적이고 캐치한 멜로디를 식재해 완성되었다. Missy Elliott과 Lil' Kim이 피쳐링한 리드 싱글 "Let It Go"를 비롯, Soulshock이 프로듀",
+	    "content" : "허스키한 소울풀 보컬을 통해 Mary J. Blige에 이어 힙합 소울의 기대주로 떠오른 Keyshia Cole의 두 번째 앨범이다. 전체적으로 데뷔작에 이어 심화된 힙합 소울 사운드와 장기인 발라드 트랙들을 고루 선보였으며, 전 수록곡에 걸쳐 대중적이고 캐치한 멜로디를 식재해 완성되었다. Missy Elliott과 Lil' Kim이 피쳐링한 리드 싱글 'Let It Go'를 비롯, Soulshock이 프로듀",
 		"genre" : "soul"
 	},
 	{
@@ -41,7 +41,7 @@
 	    "song" : "Just Like You",
 		"singer" : "Keyshia Cole",
   	    "title" : "힙합 소울의 기대주가 선보인 두 번째 앨범",
-	    "content" : "허스키한 소울풀 보컬을 통해 Mary J. Blige에 이어 힙합 소울의 기대주로 떠오른 Keyshia Cole의 두 번째 앨범이다. 전체적으로 데뷔작에 이어 심화된 힙합 소울 사운드와 장기인 발라드 트랙들을 고루 선보였으며, 전 수록곡에 걸쳐 대중적이고 캐치한 멜로디를 식재해 완성되었다. Missy Elliott과 Lil' Kim이 피쳐링한 리드 싱글 "Let It Go"를 비롯, Soulshock이 프로듀",
+	    "content" : "허스키한 소울풀 보컬을 통해 Mary J. Blige에 이어 힙합 소울의 기대주로 떠오른 Keyshia Cole의 두 번째 앨범이다. 전체적으로 데뷔작에 이어 심화된 힙합 소울 사운드와 장기인 발라드 트랙들을 고루 선보였으며, 전 수록곡에 걸쳐 대중적이고 캐치한 멜로디를 식재해 완성되었다. Missy Elliott과 Lil' Kim이 피쳐링한 리드 싱글 'Let It Go'를 비롯, Soulshock이 프로듀",
 		"genre" : "soul"
 	},
 	{
@@ -88,5 +88,77 @@
   	    "title" : "출중한 표현력으로 완성된 소울 마스터피스",
 	    "content" : "'Donny Hathaway는 유명한 가스펠 보컬리스트였던 할머니 Martha Pitts와 함께 유년시절을 보내며, 음악을 일상속에서 접했던 자양분을 바탕으로 타고난 R&B보컬로서 이름을 날린 아티스트다. 60년대 중반부터 연주자와 작곡가로 음악 활동을 시작해 Aretha Franklin, Jerry Butler 와 같은 아티스트와 작업을 했고, 여러가지 활동을 거친 뒤 1970년도에 첫 스튜디오 앨범 [Everything Is Everything]을 발매했다. 이듬해인 1971년 발매한 두 번째 정규작은 셀프",
 		"genre" : "soul"
+	},
+	{
+	    "id" : 10,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/03/682/3682_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "김지애",
+		"singer" : "김지애",
+  	    "title" : "트렌디 트로트와 카리스마 보컬의 조화",
+	    "content" : "'1986년 박춘석이 작곡한 물레야를 통해 스타로 발돋움한 김지애의 1989년 히트곡 얄미운 사람을 담고 있는 작품이다. 줄곧 시도하던 정통 트로트에서 벗어나, 트렌디한 폭스 트로트를 구사한 곡으로 당시 싱어 송라이터로 왕성한 작곡활동을 펼치던 전영록이 송라이터로 참여했다. ",
+		"genre" : "trot"
+	},
+	{
+	    "id" : 11,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/31/028/31028_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "나훈아 골드",
+		"singer" : "나훈아",
+  	    "title" : "전설의 슈퍼스타가 들려주는 히트곡 퍼레이드!",
+	    "content" : "어느 시대건, 어떤 영역이건 레전드라는 칭호를 받는 인물들이 있다. 나훈아라는 가수는 시대와 영역 두 가지 모두 레전드라는 칭호를 자연스럽게 수용할 수 있는 몇 안 되는 대한민국의 가수이다. 그럼에도 불구하고 나훈아라는 레전드가 남긴 그 많은 유산들 중에 어떤 앨범을 명반으로 선정해야 하나 라는 질문을 스스로에게 던지고 선택할 때 고른 앨범",
+		"genre" : "trot"
+	},
+	{
+	    "id" : 12,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/003/10/401/310401_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "김수희 1",
+		"singer" : "김수희",
+  	    "title" : "파격적인 창법으로 성인가요계를 평정하다!",
+	    "content" : "김수희라는 가수는 그저 대한민국의 흔한 트로트 여가수라고 표현하기엔 너무나 많은 재능을 가지고 태어난 듯 하다. 그리고 그 많은 재능만큼이나 굴곡졌던 그녀의 삶은 모창이 불가하다고 평가될 만큼 독특한 그녀의 창법에 고스란히 묻어나 많은 이들의 가슴에 파고들었다. ",
+		"genre" : "trot"
+	},
+	{
+	    "id" : 13,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/05/076/5076_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "혜은이 힛트 모음",
+		"singer" : "혜은이",
+  	    "title" : "원조 한류스타가 들려주는 성인가요의 매력!",
+	    "content" : "어쩔 수 없이 트로트라는 카테고리로 구분하기도 하지만 가수 혜은이가 보여주는 음악의 정체성은 트로트가 아니다. 그렇다고 성인가요라는 애매모호한 카테고리로 구분하는 것도 힘든 것이, 70년대 혜은이가 발표한 곡들은 포크 발라드의 전형적인 문법에 충실한 서정적인 곡들이 다수 포진하고 있으며 인기가 절정에 올랐던 80년대 발표한 몇몇 곡들은 전세계 ",
+		"genre" : "trot"
+	},
+	{
+	    "id" : 14,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/06/010/6010_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "김정수",
+		"singer" : "김정수",
+  	    "title" : "20년 관록의 록커! 중절모를 쓰다",
+	    "content" : "김정수라는 가수를 생각하면 가장 먼저 떠오르는 것이 중절모를 쓴 후덕한 아저씨의 이미지이다. 그의 가족들을 제외한다면 중절모를 벗은 가수 김정수를 본 사람이 있을까 하는 의구심마저 든다. 하지만 그는 록커였다. 그것도 베이스기타를 능숙하게 다루고 보컬까지 담당했던 록그룹의 핵심멤버였던 것이다. 초기의 미키스나 25시 같은 그룹은 생소할지라도",
+		"genre" : "trot"
+	},
+	{
+	    "id" : 15,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/03/556/3556_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "계은숙 골든",
+		"singer" : "계은숙",
+  	    "title" : "가요계 대표 허스키 보이스의 대표곡집",
+	    "content" : "여리 여리한 외모와 달리 걸쭉한 허스키 보이스로 가요계를 접수했던 계은숙의 히트곡집이다. 1985년 본격적인 일본 활동에 돌입하기 전 취입한 곡들을 담고 있으며, 전체적으로 그루브가 살아있는 곡들을 통해 특유의 리듬감을 선보였다.   데뷔곡인 디스코 풍의 노래하며 춤추며와 호소력 짙은 보컬로 완성한 기다리는 여심을 비롯, 펑키한 어레인징과 걸출한",
+		"genre" : "trot"
+	},
+	{
+	    "id" : 16,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/006/28/652/628652_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "이미자 골든베스트",
+		"singer" : "이미자",
+  	    "title" : "엘레지의 여왕! 또는 금지곡의 여왕!",
+	    "content" : "이미자라는 가수를 말할 때 흔히 사용하는 수식어가 바로 엘레지(悲歌)의 여왕이다. 비가(悲歌) 즉 슬픈 노래의 여왕이라는 이 호칭은 이미자의 불행했던 시절을 알고 있는 사람들에게는 애잔한 감정을 불러일으킨다. 유년시절부터 부모님과 떨어져 외할머니의 손에 자란 이미자는 1957년 첫 방송출연을 계기로 58년 데뷔부터 지금까지 2천 5백곡이상의 노래를 녹음",
+		"genre" : "trot"
+	},
+	{
+	    "id" : 17,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/006/28/651/628651_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "남진 골든베스트",
+		"singer" : "남진",
+  	    "title" : "현재 진행중인 트로트 전설이 지나온 발자국!",
+	    "content" : "70년대 대한민국의 가요계는 정부와 방송의 규제 속에서 별다른 발전활로를 뚫지 못하고 오랜 기간 침체기를 이어갔다. 나훈아와 남진이라는 두 명의 걸출한 가수가 라이벌 구도를 형성하며 2016년 현재에 못지않은 강력한 팬덤들을 양성하여 막힌 둑을 터트리지 못했다면, 그 침체기는 좀 더 오래갔을 것이다. 가요사의 큰 업적으로 기려도 될만한 이 두 명의 가",
+		"genre" : "trot"
 	}
 ]

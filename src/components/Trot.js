@@ -1,13 +1,26 @@
-import { Breadcrumb, Carousel, Container } from "react-bootstrap";
+import { useState } from "react";
+import { Breadcrumb, Carousel, Container, Table } from "react-bootstrap";
 
 import "../css/trot.css";
 import trot1 from "../images/trot.jpg";
 import trot2 from "../images/trot1.jpg";
-import trot3 from "../images/trot2.jpg";
-import trot4 from "../images/trot3.jpg";
-import trot5 from "../images/trot4.jpg";
+import MusicList from "../musicList.json";
 
 function Trot() {
+
+    let [musicList, setMusicList] = useState(MusicList);
+    let tablelist = musicList.filter(item => item.genre == 'trot').map((i)=>{
+        return (
+            <tr>
+                <td><img src={i.image} alt={i.id}></img></td>
+                <td><h3>{i.song}</h3><br></br><p>{i.singer}</p></td>
+                <td><h3>{i.title}</h3><p>{i.content}</p></td>
+            </tr>
+        )
+    });
+
+    console.log(tablelist);
+
   return (
     <>
       <div className="subContent artist-detail-content">
@@ -80,6 +93,22 @@ function Trot() {
                 </ul>
             </div>
             <div className="activities">
+                <h4 className="subTit1">" 추천 음악 "</h4>
+                <Table striped bordered hover>
+                <thead>
+                    <tr>
+                        <th>앨범</th>
+                        <th>음악/아티스트</th>
+                        <th>설명</th>
+                        <th>찜하기</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {tablelist}
+                </tbody>
+                </Table>
+            </div>
+            <div className="activities">
                 <h4 className="subTit1">" 역사 "</h4>
                 <div className="activities-wrapper">
                     <dl>
@@ -129,46 +158,6 @@ function Trot() {
                         <dd>다만, 미스터트롯 열풍이 모든 연령층의 인기나 트로트 자체의 부흥이라기보다는 고연령층에 편중된 인기와 특정 참가자들의 인기에 치우쳤다는 것이 상당히 우려되는 점이다.</dd>
                     </dl>
                 </div>
-            </div>
-            <div className="activities">
-                <h4 className="subTit1">" 추천 음악 "</h4>
-                <Carousel>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={trot3}
-                        alt="First slide"
-                        />
-                        <Carousel.Caption>
-                        <h3>아모르 파티</h3>
-                        <p>인생은 지금부터이다. 우리 모두는 자신의 운명을 사랑하는 ‘아모르파티’가 되어야 한다.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={trot4}
-                        alt="Second slide"
-                        />
-
-                        <Carousel.Caption>
-                        <h3>이제 나만 믿어요</h3>
-                        <p>무얼 믿은 걸까 부족했던 내게서 나조차 못 믿던 내게 여태 머문 사람.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                        className="d-block w-100"
-                        src={trot5}
-                        alt="Third slide"
-                        />
-
-                        <Carousel.Caption>
-                        <h3>산다는 건</h3>
-                        <p>산다는 건 다 그런 거래요. 힘들고 아픈 날도 많지만, 산다는 건 참 좋은 거래요</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
             </div>
         </div>
       </div>
