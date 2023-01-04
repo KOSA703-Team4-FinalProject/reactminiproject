@@ -91,16 +91,16 @@ let musicList = [
 	},
 	{
 	    "id" : 10,
-		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/03/682/3682_500.jpg/melon/resize/360/quality/80/optimize",
-	    "song" : "김지애",
-		"singer" : "김지애",
+		image : "https://cdnimg.melon.co.kr/cm/album/images/000/03/682/3682_500.jpg/melon/resize/360/quality/80/optimize",
+	    song : "김지애",
+		singer : "김지애",
   	    "title" : "트렌디 트로트와 카리스마 보컬의 조화",
 	    "content" : "'1986년 박춘석이 작곡한 물레야를 통해 스타로 발돋움한 김지애의 1989년 히트곡 얄미운 사람을 담고 있는 작품이다. 줄곧 시도하던 정통 트로트에서 벗어나, 트렌디한 폭스 트로트를 구사한 곡으로 당시 싱어 송라이터로 왕성한 작곡활동을 펼치던 전영록이 송라이터로 참여했다. ",
 		"genre" : "trot"
 	},
 	{
 	    "id" : 11,
-		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/31/028/31028_500.jpg/melon/resize/360/quality/80/optimize",
+		image : "https://cdnimg.melon.co.kr/cm/album/images/000/31/028/31028_500.jpg/melon/resize/360/quality/80/optimize",
 	    "song" : "나훈아 골드",
 		"singer" : "나훈아",
   	    "title" : "전설의 슈퍼스타가 들려주는 히트곡 퍼레이드!",
@@ -162,6 +162,24 @@ let musicList = [
 		"genre" : "trot"
 	},
 	{
+	    "id" : 18,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/003/10/151/310151_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "최희준 힛트곡 전집",
+		"singer" : "최희준",
+  	    "title" : "구수하게 노래하는 엘리트의 품격!",
+	    "content" : "대한민국을 이끌어가는 엘리트 집단들 중 최고봉은 국회의원일 것이다. 2016년 현재 19대 국회를 거쳐간 많은 의원들 중 최희준을 제외하면 가수출신은 없다. (정두언 의원의 경우 가수출신이 아닌 정계에 입문 후 음반을 발표한 경우이다.) 대한민국 최고의 명문 경복고등학교 졸업 후, 서울대학교 법대로 진학하여 예비 법조인의 꿈을 키우던 대학생의 인생은 서울",
+		"genre" : "trot"
+	},
+	{
+	    "id" : 19,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/003/82/274/382274_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "사랑을 위하여",
+		"singer" : "김종환",
+  	    "title" : "1세대 아이돌을 눌렀던 성인가요의 금자탑",
+	    "content" : "1985년 데뷔한 이후 작곡가로서 활동하던 김종환은 1990년 1집을 발표하며 가수로서 본격적인 음악활동을 시작하려 하였으나 급변한 주변환경으로 인하여 대중에게 알려지지 못한 채 사장된 음반이 되어버렸다. 이후로도 오랜 무명생활을 이어간 김종환의 인생역전은 1996년에 발표한 2집앨범의 수록곡인 존재의 이유가 최고 시청률 65.8%라는 불멸의 기",
+		"genre" : "trot"
+	},
+	{
 	    "id" : 20,
 		"image" : "data:image/jpeg;base64,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",
 	    "song" : "Unholy",
@@ -195,6 +213,60 @@ let musicList = [
 		"singer" :"Gary Numan",
   	    "title" : "출중한 표현력으로 완성된 소울 마스터피스",
 	    "content" : "빌보드 R&B 차트에서 1987년 8월 둘째 주에 1주 1위, 빌보드 핫 100에서 14위를 기록했다.",
+		"genre" : "pop"
+	},
+	{
+		"id" : 24,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/16/305/16305_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "No. 1",
+		"singer" :"보아",
+  	    "title" : "한국과 일본의 정상에 선 아시아의 별",
+	    "content" : "만 13살의 천재소녀라는 소속사의 대대적인 홍보 아래 [ID; Peace B]로 데뷔를 마친 보아는, 곧바로 일본 진출을 시도했다. 트레이닝 단계에서 이미 일본어를 완벽하게 마스터하고, 일본의 AVEX와 계약을 체결하며 총 7장의 싱글과 정규앨범 [LISTEN TO MY HEART]를 발매, 국내 가수로서는 처음으로 오리콘 일간, 주간 앨범차트 1위 기록을 세웠다. 일본 활동을 성공",
+		"genre" : "pop"
+	},
+	{
+		"id" : 25,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/003/10/659/310659_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "소방차 1집",
+		"singer" :"소방차",
+  	    "title" : "펑키한 댄스뮤직을 울리며 달려간 소방차!",
+	    "content" : "아이돌 그룹이라는 형식의 틀을 만들며 댄스음악으로 80년대 후반을 소방차 열풍이 일게 한 이들의 첫 번째 앨범이다. 부드러운 멜로디에 펑키한 리듬의 록사운드를 바탕으로 당시로선 파격적인 과격한 안무를 들고 나타난 소방차는 10대들의 폭발적인 사랑을 받았다. 타이틀곡 '어젯밤 이야기'와 후속곡 '그녀에게 전해주오'는 소방차 열풍의 큰 견인차 역할을",
+		"genre" : "pop"
+	},
+	{
+		"id" : 26,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/05/343/5343_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "날개 잃은 천사",
+		"singer" :"룰라",
+  	    "title" : "엉덩이 춤과 함께 룰라 전성기를 이끈 앨범",
+	    "content" : "1990년대 최정상급 혼성 그룹 룰라의 대표 명반 [날개 잃은 천사]. 1994년 혜성처럼 등장해 세간의 주목을 받았던 룰라는 이듬해 정규 2집 [날개 잃은 천사]를 발표하면서 정작 본인들은 곡명과 반대로 날개를 달고 화려하게 비상을 한다. 1집 때 활동했던 멤버 신정환이 군복무로 빠지고 채리나를 새롭게 영입하여 팀을 재정비한 룰라는 레게풍의 댄스곡 '날개 잃은",
+		"genre" : "pop"
+	},
+	{
+		"id" : 27,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/010/17/253/1017253_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "To Anyone",
+		"singer" :"2NE1",
+  	    "title" : "이미 정상에 선 그녀들의 정규 1집",
+	    "content" : "일명 여자빅뱅이란 타이틀을 내세우며 데뷔한 YG의 힙합 걸그룹 '2NE1' 은 데뷔 싱글 'Fire' 를 시작으로 'I don`t care', 'You and I', 'Please don`t go', '날 따라 해봐요' 등 신인이라는 단어가 무색할 정도로 연이은 히트곡 배출해내며 이미 정상의 자리에 올랐다. 그런 2NE1의 정규 1집 [To Anyone] 은 발매 전 부터 대중들의 기대를 한몸에 받은 앨범이었다.   가요계 사상 최",
+		"genre" : "pop"
+	},
+	{
+		"id" : 28,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/013/39/753/1339753_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "Over The Top",
+		"singer" :"인피니트",
+  	    "title" : "인피니트의 이유 있는 자신감 [Over The Top]",
+	    "content" : "2010년 넬, 러브홀릭의 지선, 에픽하이가 소속되어있던 울림엔터테인먼트가 제작한 첫 아이돌 그룹 인피니트. 음악성이 뛰어난 아티스트들의 매니지먼트를 담당한 소속사답게, 인피니트는 데뷔부터 아이돌의 화려한 퍼포먼스는 물론 뛰어난 음악성으로 승부하는 전략을 펼쳤다. 브라운아이드걸스의 '아브라카다브라'로 인기 작곡가 반열에 오른 히치하이커가 작곡",
+		"genre" : "pop"
+	},
+	{
+		"id" : 29,
+		"image" : "https://cdnimg.melon.co.kr/cm/album/images/000/22/279/22279_500.jpg/melon/resize/360/quality/80/optimize",
+	    "song" : "3마이",
+		"singer" :"싸이(PSY)",
+  	    "title" : "엽기가수 싸이, 가요계 챔피언 되다!",
+	    "content" : "엽기적인 춤과 다소 위협적인 랩, 독특한 비주얼로 일명 '엽기가수' 라 불렸던 싸이의 3집 앨범이다. 대한민국이 하나됐던 2002년 월드컵의 광고 특수를 누리며 큰 성공을 거두었다. 싸이 본인이 전곡 작사, 작곡한 앨범으로 1집에서 14곡, 2집에서 전 곡이 방송불가 판정을 받았던 것과는 달리 3집 앨범은 훨씬 순화되고 긍정적인 앨범으로 대중에게 한층 더 가까이",
 		"genre" : "pop"
 	},
 	{
