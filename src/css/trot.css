@@ -1,0 +1,46 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'SMTOWN','Noto Sans KR',sans-serif,"sans-serif","AppleGothic","applegothic";
+    box-sizing: border-box;
+}
+
+ul, ol, dl, dt, dd, li {
+    list-style: none;
+}
+
+.subBox{
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 54px 30px 27px;
+}
+
+.subBox .subLocation li {
+    position: relative;
+    float: left;
+    font-size: 10px;
+    color: #999;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-right: 12px;
+    margin-right: 6px;
+}
+
+.subBox .subLocation h3 {
+    font-size: 43px;
+    line-height: 66px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin-left: -4px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
