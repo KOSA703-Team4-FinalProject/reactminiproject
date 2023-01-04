@@ -6,7 +6,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
-import store from "./store";
+import music from "./music";
 import { QueryClient,  QueryClientProvider } from 'react-query';
 
 const queryClient = new QueryClient();
@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <QueryClientProvider client={queryClient}>
-      <Provider store={store}>
+      <Provider store={music}>
         <BrowserRouter>
           <App />
         </BrowserRouter>
