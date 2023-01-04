@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Table } from "react-bootstrap";
 
-import MusicList from "../musicList.json";
+import MusicList from "../musicList.js";
 
 function MainPage() {
 

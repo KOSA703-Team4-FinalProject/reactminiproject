@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 import { useState } from 'react';
 
 
-import pop from '../musicList.json';
+import pop from '../musicList.js';
 function Dance(){
     const imagestyle = {
         height: "50vh",  

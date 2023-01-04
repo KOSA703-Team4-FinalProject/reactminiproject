@@ -4,7 +4,7 @@ import { Breadcrumb, Carousel, Container, Table } from "react-bootstrap";
 import "../css/trot.css";
 import trot1 from "../images/trot.jpg";
 import trot2 from "../images/trot1.jpg";
-import MusicList from "../musicList.json";
+import MusicList from "../musicList.js";
 
 function Trot() {
 
