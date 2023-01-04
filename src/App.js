@@ -10,6 +10,7 @@ import SearchMusic from "./components/SearchMusic";
 
 import "./App.css";
 import MainPage from "./components/MainPage";
+import Detail from "./components/Detail";
 
 export let Stockcontext = React.createContext(); //1.컨텍스트 만들고
 
@@ -48,6 +49,7 @@ function App() {
           <Route path="/dance" element={<Dance />} />
           <Route path="/ballad" element={<Ballad />} />
           <Route path="/Soul" element={<Soul />} />
+          <Route path="/detail/:id" element={<Detail />} />
           <Route path="/SearchMusic" element={<SearchMusic />} />
         </Routes>
       </Suspense>

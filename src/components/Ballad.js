@@ -61,7 +61,8 @@ function Ballad() {
                         
                         <td>{balladList[i].title}</td>
                         <td> 
-                        <button onClick={()=>{ navigate(`/Ballad2/${balladList[i].id}`) }} className="btn btn-dark">상세보기</button></td>  </tr>
+                        <button onClick={()=>{ navigate(`/detail/${balladList[i].id}`) }} className="btn btn-dark">상세보기</button></td>  
+                    </tr>
                 )}             
             </tbody>
         </Table>
