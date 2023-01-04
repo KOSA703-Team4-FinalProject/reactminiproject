@@ -12,7 +12,10 @@ import MainPage from "./components/MainPage";
 
 export let Stockcontext = React.createContext(); //1.컨텍스트 만들고
 
+
 function App() {
+
+  
 
   return (
     <div className="App">
@@ -43,7 +46,7 @@ function App() {
           <Route path="/trot" element={<Trot />} />
           <Route path="/dance" element={<Dance />} />
           <Route path="/ballad" element={<Ballad />} />
-          <Route path="/soul" element={<Soul />} />
+          <Route path="/Soul" element={<Soul />} />
         </Routes>
       </Suspense>
     </div>

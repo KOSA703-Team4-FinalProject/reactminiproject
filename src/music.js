@@ -7,21 +7,15 @@ let music =createSlice({
     initialState: musicList,
     reducers: {
         soulList(state){
-            console.log(state);
             return state
         }
     }
 })
 
-
-
 export let { soulList } = music.actions
-
-
 
 export default configureStore({
     reducer:{
         music : music.reducer
-      
     }
 })
