@@ -6,13 +6,17 @@ import { useState } from 'react';
 
 
 import pop from '../musicList.js';
+import { Route, Routes } from 'react-router-dom';
+import { Stockcontext } from '../App.js';
+import Detail from './Detail';
 function Dance(){
     const imagestyle = {
         height: "50vh",  
           width: "50vw",
           };
-     let [dance,setDance] =useState(pop);     
-    
+     let [dance,setDance] =useState(pop);
+     console.log(dance);   
+     let [stock] = useState([7, 13, 20]) 
     return(
         
         <div >
@@ -101,11 +105,12 @@ function Dance(){
         <div>
         <h3>추천곡</h3>
         <hr></hr>
+        
         { 
-
+          
           dance.filter(dance => dance.genre == "pop").map((item,i)=>
-            <div style={{float: "left" }} >
-            <div style={{margin: "20px" }} key={i}>
+            <div style={{float: "left" }}  key={i}>
+            <div style={{margin: "20px" }}>
                 <Card style={{ width: '18rem' ,height:'20px' }}  > 
                 <Card.Img variant="top" src={item.image} />
                 <Card.Body>
@@ -120,22 +125,22 @@ function Dance(){
               </Card>
               </div>
               </div>
+              
             )
-        }
+          }
+       
+        
+       
 
 </div>
 
-   
-     
- 
+
         </div>
 		</div>
 		<div className="col-md-1">
 		</div>
 	</div>
 </div>
-        
-       
 
         </div>
     )
