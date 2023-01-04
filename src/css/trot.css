@@ -1,21 +1,178 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'SMTOWN','Noto Sans KR',sans-serif,"sans-serif","AppleGothic","applegothic";
+.subContent.artist-detail-content .artistDetail.subDetail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.artistMember ul.artistMemberBox {
+    margin-bottom: -36px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.artistMember ul.artistMemberBox {
+    font-size: 0;
+    margin-left: -20px;
+    margin-right: -20px;
     box-sizing: border-box;
+    display: -ms-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.subContent.artist-detail-content .artistDetail.subDetail .discography {
+    width: 100%;
+    flex: 1;
+}
+.artistMember ul.artistMemberBox li.artistMemberList {
+    padding: 0 8px 26px;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.artistMember ul.artistMemberBox li.artistMemberList {
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 20px 40px;
+    -ms-flex: 0 0 220px;
+    flex: 0 0 220px;
+    max-width: 220px;
+}
+.artistMember ul.artistMemberBox li.artistMemberList img {
+    width: 100%;
+    border-radius: 100%;
+}
+.artistMember ul.artistMemberBox li span {
+    font-size: 16px;
+}
+.artistMember ul.artistMemberBox li span {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color: #191919;
+    font-family: 'Noto Sans KR';
+    margin: 20px 0 12px;
+    text-align: center;
+}
+.subContent.artist-detail-content .artistDetail.subDetail .artistTop.subTop {
+    width: 100%;
+    flex: 1;
+}
+.subTit1 {
+    font-size: 28px;
+    text-align: left;
+    padding: 85px 0 30px !important;
+    letter-spacing: 5px;
+}
+.artistMember h4 {
+    border-top: none;
+}
+.subTop .left {
+    float: left;
+    width: 50%;
+    padding-bottom: 56px;
 }
 
-ul, ol, dl, dt, dd, li {
-    list-style: none;
+.subTop .left img {
+    max-width: 100%;
+    width: 100%;
+}
+.activities {
+    padding: 0 90px;
+    background: none;
+}
+.activities div {
+    text-align: center;
+}
+.activities dl {
+    display: inline-block;
+    width: 100%;
+    color: #191919;
+}
+.activities dl dt {
+    display: block;
+    float: none;
+    width: auto;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 400;
+}
+.activities dl dd {
+    display: block;
+    float: none;
+    width: 100%;
+    font-size: 16px;
+    font-family: "Noto Sans KR";
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+.subTop .right {
+    float: right;
+    width: calc(50% - 20px);
+    border-top: 6px solid #191919;
+    padding: 55px 22px 56px 40px;
+}
+.artistTop .txtBox {
+    margin-top: 117px;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Noto Sans KR";
+    line-height: 30px;
+}
+.artistTop .txtBox > div h3 {
+    float: left;
+    min-width: 105px;
+    font-size: 16px;
+}
+.artistTop .txtBox > div h3 ~ p {
+    margin-left: 105px;
+    color: #666666;
+}
+.artistMember {
+    padding: 0 16px;
+}
+.artistMember {
+    max-width: 1340px;
+    padding: 0 30px 48px;
+    margin: 0 auto;
+}
+.subContent.artist-detail-content .artistDetail.subDetail .artistMember {
+    width: 100%;
+    flex: 1;
+}
+.subTit .titTxt h4 {
+    float: left;
+    font-size: 28px;
+    font-weight: 700;
+}
+.artistTop .txtBox > div {
+    margin-bottom: 8px;
+    min-height: 30px;
+    font-size: 16px;
 }
 
-.subBox{
+.subContent.artist-detail-content .subBox {
+    width: 100%;
+}
+
+.subContent artist-detail-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.subBox {
     max-width: 1340px;
     margin: 0 auto;
     padding: 54px 30px 27px;
+    width: 100%;
 }
-
+input, div {
+    box-sizing: border-box;
+}
+ul, ol, dl, dt, dd, li {
+    list-style: none;
+}
 .subBox .subLocation li {
     position: relative;
     float: left;
@@ -26,7 +183,12 @@ ul, ol, dl, dt, dd, li {
     padding-right: 12px;
     margin-right: 6px;
 }
-
+.subBox .subLocation li:after {
+    position: absolute;
+    content: "/";
+    font-size: 10px;
+    right: 0;
+}
 .subBox .subLocation h3 {
     font-size: 43px;
     line-height: 66px;
@@ -34,13 +196,15 @@ ul, ol, dl, dt, dd, li {
     font-weight: 300;
     margin-left: -4px;
 }
-
-h3 {
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+ul {
     display: block;
-    font-size: 1.17em;
+    list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    padding-inline-start: 40px;
 }
