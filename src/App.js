@@ -6,9 +6,14 @@ import Trot from "./components/Trot";
 import Dance from "./components/Dance";
 import Soul from "./components/Soul";
 import Ballad from "./components/Ballad";
+import music from "./music"; 
+
 export let Stockcontext = React.createContext(); //1.컨텍스트 만들고
 
+
 function App() {
+
+  
 
   return (
     <div className="App">
@@ -44,6 +49,7 @@ function App() {
           <Route path="/trot" element={<Trot />} />
           <Route path="/dance" element={<Dance />} />
           <Route path="/ballad" element={<Ballad />} />
+          <Route path="/Soul" element={<Soul />} />
         </Routes>
       </Suspense>
     </div>

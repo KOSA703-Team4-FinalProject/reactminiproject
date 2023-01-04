@@ -1,6 +1,6 @@
 import { Table } from "react-bootstrap";
 import { useSelector, useDispatch } from "react-redux";
-import { changeName, increase, addCount, initCount,minusCount } from '../store';
+import { changeName, increase, addCount, initCount,minusCount } from '../music';
 
 
 
