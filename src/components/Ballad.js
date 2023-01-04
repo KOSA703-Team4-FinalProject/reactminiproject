@@ -84,9 +84,10 @@ function Ballad() {
                         
                         <td>{balladList[i].title}</td>
                         <td> 
-                        <button onClick={()=>{ navigate(`/detail/${balladList[i].id}`) }} className="btn btn-dark">상세보기</button></td>  
+                        <button onClick={()=>{ navigate(`/detail/${balladList[i].id}`) }} className="btn btn-dark">상세보기</button>
+                        <button onClick={()=>{ navigate(`/ballad2/${balladList[i].id}`) }} className="btn btn-dark">찜하기</button>
+                        </td>  
                     </tr>
-                        <button onClick={()=>{ navigate(`/ballad2/${balladList[i].id}`) }} className="btn btn-dark">찜하기</button></td>  </tr>
                 )}             
             </tbody>
         </Table>
