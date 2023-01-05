@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Carousel, Pagination, Table } from "react-bootstrap";
+import { Navigate } from "react-router-dom";
 
 import MusicList from "../musicList.js";
 
@@ -7,9 +8,9 @@ function MainPage() {
 
   let [musicList, setMusicList] = useState(MusicList);
 
-  let no1 = Math.floor( Math.random() * (35-1) + 1 );
-  let no2 = Math.floor( Math.random() * (35-1) + 1 );
-  let no3 = Math.floor( Math.random() * (35-1) + 1 );
+  let no1 = Math.floor( Math.random() * (34-1) + 1 );
+  let no2 = Math.floor( Math.random() * (34-1) + 1 );
+  let no3 = Math.floor( Math.random() * (34-1) + 1 );
 
   let tablelist = musicList.map((i) => {
 
@@ -26,6 +27,8 @@ function MainPage() {
         <td>
           <h3>{i.title}</h3>
           <p>{i.content}</p>
+        </td>
+        <td>
         </td>
       </tr>
     );
